@@ -1,0 +1,36 @@
+body {
+  height: 100svh;
+  width: 100svw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+section {
+  height: 200px;
+  width: 200px;
+}
+
+a {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: red;
+}
+
+#RGB {
+  background-color: rgb(228, 122, 15);
+}
+
+#HEX {
+  background-color: #079b31;
+}
+
+#RGBA {
+  background-color: rgba(180, 20, 151, 0.2);
+}
+
+#HSL {
+  background-color: hsl(195, 100%, 50%);
+}
